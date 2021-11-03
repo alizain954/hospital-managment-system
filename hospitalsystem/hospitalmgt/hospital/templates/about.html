@@ -1,0 +1,18 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block body %}
+<div class="container" style="margin-top:50px">
+    <h2 class="text-center">About us</h2>
+    <br><br>
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>About</h2>
+            <p>As a community, our priority is about you more than it’s about us. We know that facing a cancer diagnosis is scary to say the least, and our 200+ strong team is committed to supporting and empowering you through every step of this journey.</p>
+
+        </div>
+        <div class="col-sm-6">
+             <img src="{% static 'image/ab.png' %}" height="350px" width="550px">
+        </div>
+    </div>
+</div>
+{% endblock %}
